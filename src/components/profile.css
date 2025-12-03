@@ -1,0 +1,77 @@
+.profile-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-panel {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background: white;
+  width: 260px;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  z-index: 999;
+}
+
+.profile-container {
+  width: 100%;
+}
+
+.profile-welcome-box {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.profile-welcome-box h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.profile-welcome-box p {
+  margin: 3px 0 10px;
+  color: #555;
+  font-size: 14px;
+}
+
+.profile-login-btn {
+  display: inline-block;
+  background: #ff3f6c;
+  color: white;
+  padding: 7px 14px;
+  border-radius: 4px;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.profile-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-item {
+  margin: 10px 0;
+}
+
+.profile-item a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #333;
+}
+
+.profile-item a:hover {
+  color: #ff3f6c;
+}
+
+.new-tag {
+  background: #ff3f6c;
+  color: white;
+  font-size: 10px;
+  padding: 1px 5px;
+  border-radius: 3px;
+  margin-left: 6px;
+}

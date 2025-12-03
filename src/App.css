@@ -1,0 +1,10 @@
+.hover-link{
+    color: gray; 
+    cursor: pointer;
+    text-decoration: none;
+  
+}
+
+.hover-link:hover{
+    text-decoration: underline;
+}

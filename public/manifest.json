@@ -1,0 +1,20 @@
+{
+  "short_name": "MyntraClone",
+  "name": "Myntra Shopping - Fashion & Clothing",
+  "icons": [
+    {
+      "src": "https://aartisto.com/wp-content/uploads/2020/11/myntra.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://aartisto.com/wp-content/uploads/2020/11/myntra.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ff3f6c",
+  "background_color": "#ffffff"
+}

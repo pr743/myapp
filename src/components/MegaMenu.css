@@ -1,0 +1,62 @@
+.mega-menu-container {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px 60px;
+  z-index: 2000;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+  overflow-y: auto;
+  max-height: 80vh;
+}
+
+.mega-menu-col h6 {
+  color: #ee6189;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 4px;
+}
+
+.mega-menu-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+.mega-menu-col ul li a {
+  text-decoration: none;
+  color: #333333c8;
+  display: block;
+  padding: 4px 0;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.mega-menu-col ul li a:hover {
+  color: black;
+  font-weight: 500;
+}
+
+.nav-link.fw-bold.text-dark:hover {
+  color :rgba(0, 0, 0, 0.1);
+}
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+  

@@ -1,0 +1,24 @@
+.bag-container {
+  width: 100%;
+  padding: 20px 40px;
+}
+
+.bag-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+
+  color: #3e4152;
+}
+
+.bag-grid {
+ display: flex;
+  gap: 20px;
+}
+
+.bag-grid img {
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
